@@ -1,4 +1,4 @@
-const API_URL= 'https://nasaspacelaunchsystem.onrender.com/'
+const API_URL= 'https://nasaspacelaunchsystem.onrender.com'
 
 async function httpGetPlanets() {
   const response = await fetch(`${API_URL}/planets`)
