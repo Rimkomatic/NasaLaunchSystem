@@ -9,7 +9,7 @@ const launchesRouter = require('./routes/launches/launches.router')
 
 
 app.use(cors({
-    origin: 'https://nasa-launch-system-hfu67o2x2-w41k3r0.vercel.app',
+    origin: 'https://nasa-launch-system.vercel.app',
 }))
 
 app.use(morgan('combined'))
